@@ -1,0 +1,134 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "SimpleProceduralWalkInterface.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FHitResult;
+#ifdef SIMPLEPROCEDURALWALK_SimpleProceduralWalkInterface_generated_h
+#error "SimpleProceduralWalkInterface.generated.h already included, missing '#pragma once' in SimpleProceduralWalkInterface.h"
+#endif
+#define SIMPLEPROCEDURALWALK_SimpleProceduralWalkInterface_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_RPC_WRAPPERS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_CALLBACK_WRAPPERS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	SIMPLEPROCEDURALWALK_API USimpleProceduralWalkInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USimpleProceduralWalkInterface) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(SIMPLEPROCEDURALWALK_API, USimpleProceduralWalkInterface); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USimpleProceduralWalkInterface); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	SIMPLEPROCEDURALWALK_API USimpleProceduralWalkInterface(USimpleProceduralWalkInterface&&); \
+	SIMPLEPROCEDURALWALK_API USimpleProceduralWalkInterface(const USimpleProceduralWalkInterface&); \
+public: \
+	SIMPLEPROCEDURALWALK_API virtual ~USimpleProceduralWalkInterface();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	SIMPLEPROCEDURALWALK_API USimpleProceduralWalkInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	SIMPLEPROCEDURALWALK_API USimpleProceduralWalkInterface(USimpleProceduralWalkInterface&&); \
+	SIMPLEPROCEDURALWALK_API USimpleProceduralWalkInterface(const USimpleProceduralWalkInterface&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(SIMPLEPROCEDURALWALK_API, USimpleProceduralWalkInterface); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USimpleProceduralWalkInterface); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USimpleProceduralWalkInterface) \
+	SIMPLEPROCEDURALWALK_API virtual ~USimpleProceduralWalkInterface();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_GENERATED_UINTERFACE_BODY() \
+private: \
+	static void StaticRegisterNativesUSimpleProceduralWalkInterface(); \
+	friend struct Z_Construct_UClass_USimpleProceduralWalkInterface_Statics; \
+public: \
+	DECLARE_CLASS(USimpleProceduralWalkInterface, UInterface, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Interface), CASTCLASS_None, TEXT("/Script/SimpleProceduralWalk"), SIMPLEPROCEDURALWALK_API) \
+	DECLARE_SERIALIZER(USimpleProceduralWalkInterface)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_GENERATED_BODY_LEGACY \
+		PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_GENERATED_UINTERFACE_BODY() \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_STANDARD_CONSTRUCTORS \
+	PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_GENERATED_BODY \
+	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_GENERATED_UINTERFACE_BODY() \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_ENHANCED_CONSTRUCTORS \
+private: \
+	PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_INCLASS_IINTERFACE_NO_PURE_DECLS \
+protected: \
+	virtual ~ISimpleProceduralWalkInterface() {} \
+public: \
+	typedef USimpleProceduralWalkInterface UClassType; \
+	typedef ISimpleProceduralWalkInterface ThisClass; \
+	static void Execute_OnFootDown(UObject* O, int32 LegIndex, FName TipBone, FVector FootLocation, FHitResult Hit); \
+	static void Execute_OnFootUp(UObject* O, int32 LegIndex, FName TipBone, FVector FootLocation); \
+	static void Execute_OnGroupDown(UObject* O, int32 GroupIndex, FVector AverageFeetLocation, FHitResult FirstFootHit); \
+	static void Execute_OnGroupUp(UObject* O, int32 GroupIndex, FVector AverageFeetLocation); \
+	static void Execute_OnPawnLanded(UObject* O, FVector Location); \
+	virtual UObject* _getUObject() const { return nullptr; }
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_INCLASS_IINTERFACE \
+protected: \
+	virtual ~ISimpleProceduralWalkInterface() {} \
+public: \
+	typedef USimpleProceduralWalkInterface UClassType; \
+	typedef ISimpleProceduralWalkInterface ThisClass; \
+	static void Execute_OnFootDown(UObject* O, int32 LegIndex, FName TipBone, FVector FootLocation, FHitResult Hit); \
+	static void Execute_OnFootUp(UObject* O, int32 LegIndex, FName TipBone, FVector FootLocation); \
+	static void Execute_OnGroupDown(UObject* O, int32 GroupIndex, FVector AverageFeetLocation, FHitResult FirstFootHit); \
+	static void Execute_OnGroupUp(UObject* O, int32 GroupIndex, FVector AverageFeetLocation); \
+	static void Execute_OnPawnLanded(UObject* O, FVector Location); \
+	virtual UObject* _getUObject() const { return nullptr; }
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_11_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_19_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_RPC_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_INCLASS_IINTERFACE \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h_14_INCLASS_IINTERFACE_NO_PURE_DECLS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> SIMPLEPROCEDURALWALK_API UClass* StaticClass<class USimpleProceduralWalkInterface>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SimpleProceduralWalk_Source_SimpleProceduralWalk_Public_SimpleProceduralWalkInterface_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
