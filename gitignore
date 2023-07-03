@@ -65,3 +65,35 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# UE4 cached stuff/build products
+Unreal/DerivedDataCache
+Unreal\DerivedDataCache
+Unreal/Intermediate
+Unreal\Intermediate
+Unreal/Binaries
+Unreal\Binaries
+#/Build
+Unreal/Saved
+Unreal\Saved
+
+# at the root of the project
+DerivedDataCache
+Intermediate
+Binaries
+Saved
+*.sln
+Plugins
+
+EditorOpenOrder.log
+
+Unreal/*.sln
+Unreal\*.sln
+
+/Plugins/*/Binaries
+\Plugins\*\Binaries
+/Plugins/*/Intermediate
+\Plugins\*\Intermediate
+
+*.reapeaks
+*.skb
